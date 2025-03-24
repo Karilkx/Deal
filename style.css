@@ -1,0 +1,68 @@
+/* Dark Mode Setup */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Container Setup */
+.container {
+    margin-top: 50px;
+}
+
+/* GIF Styling */
+#gif {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Question Text */
+h1 {
+    font-size: 22px;
+}
+
+/* Yes Button - Neon Effect */
+.yes-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    background: #ff00ff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px #ff00ff;
+}
+
+.yes-button:hover {
+    box-shadow: 0px 0px 20px #ff00ff;
+    transform: scale(1.1);
+}
+
+/* No Button - Moves Around */
+.no-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    background: red;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.5s;
+}
+
+/* No Button Container */
+#no-buttons-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+/* When User Taps Yes */
+.colorful {
+    background-color: white !important;
+    color: black !important;
+    transition: 0.5s;
+}
